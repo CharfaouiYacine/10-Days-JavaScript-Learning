@@ -5,6 +5,7 @@ function isPositive(a) {
         throw new Error("Zero Error")
     }else{
         throw new Error("Negative Error")
+        // it's good if we use new Error with throw as good practice (clean code)
     }
 }
 
