@@ -5,7 +5,7 @@ function regexVar() {
      * followed by one or more letters.
      */
 
-    let re = /^(Mr\.|Mrs\.|Ms\.|Dr\.|Er\.)\w+/ig
+    let re = /^(Mr\.|Mrs\.|Ms\.|Dr\.|Er\.)[a-zA-Z]+$/ig
     /*
      * Do not remove the return statement
      */
